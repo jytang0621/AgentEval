@@ -19,21 +19,21 @@ The website supports three different modes (Agent-Only, Human-Only, Human-Agent-
 - **URL Parameter:** `?agent=true`
 - **Description:**  
   Interface for evaluating GUI agents, featuring no task information banner and a streamlined task completion modal for automated testing.
-- **Example:** https://jingyuhhh.github.io/AgentEval/#/task/1?agent=true
+- **Example:** https://jytang0621.github.io/AgentEval/#/task/1?agent=true
 
 ## 2. User Mode
 
 - **URL Parameter:** `/task/:id/`
 - **Description:**
   Interface designed for human users, which includes a task information banner with personal data, survey forms, and a "skip task" functionality.
-- **Example:** https://jingyuhhh.github.io/AgentEval/#/task/1
+- **Example:** https://jytang0621.github.io/AgentEval/#/task/1
 
 ## 3. Human Oversight Mode
 
 - **URL Pattern:** `/task/:id/taskvideo`
 - **Description:**  
   A video playback mode where a human can oversee and analyze an agent's pre-recorded performance on a task.
-- **Example:** http://jingyuhhh.github.io/AgentEval/#/task/1/taskvideo
+- **Example:** http://jytang0621.github.io/AgentEval/#/task/1/taskvideo
 
 ## 📋 Dark Patterns List
 
@@ -60,7 +60,7 @@ The website supports three different modes (Agent-Only, Human-Only, Human-Agent-
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/jingyuhhh/AgentEval.git
+git clone https://github.com/jytang0621/AgentEval.git
 cd website
 
 # 2. Install dependencies
