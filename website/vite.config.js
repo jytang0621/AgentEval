@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://jingyuhhh.github.io/AgentEval",
+  base: "https://jytang0621.github.io/AgentEval",
 });
